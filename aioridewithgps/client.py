@@ -192,7 +192,7 @@ class RideWithGPSClient:
             api_key=auth_data["api_key"],
             user=User(
                 id=user_data["id"],
-                email=user_data["email"],
+                email=user_data.get("email", ""),
                 first_name=user_data.get("first_name", ""),
                 last_name=user_data.get("last_name", ""),
                 display_name=user_data.get("display_name", ""),
@@ -217,7 +217,7 @@ class RideWithGPSClient:
         u = data["user"]
         return User(
             id=u["id"],
-            email=u["email"],
+            email=u.get("email", ""),
             first_name=u.get("first_name", ""),
             last_name=u.get("last_name", ""),
             display_name=u.get("display_name", ""),
