@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aioridewithgps"
+version = "0.1.0"
+description = "Async Python client for the Ride with GPS API"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.9.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/scriptsandthings/aioridewithgps"
+Documentation = "https://ridewithgps.com/api/v1/doc"
+
+[tool.setuptools.packages.find]
+include = ["aioridewithgps*"]
