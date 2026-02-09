@@ -280,6 +280,7 @@ class RideWithGPSClient:
             device=t.get("device"),
             url=t.get("url"),
             web_url=t.get("web_url"),
+            html_url=t.get("html_url"),
         )
 
     async def get_trips(

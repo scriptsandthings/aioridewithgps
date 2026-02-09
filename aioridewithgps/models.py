@@ -108,6 +108,7 @@ class TripSummary:
     # URLs
     url: str | None = None  # API URL for this trip
     web_url: str | None = None  # Browser-viewable URL on ridewithgps.com
+    html_url: str | None = None  # Browser-viewable URL (with privacy_code if needed)
 
 
 @dataclass
