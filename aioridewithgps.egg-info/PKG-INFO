@@ -1,3 +1,14 @@
+Metadata-Version: 2.4
+Name: aioridewithgps
+Version: 0.1.3
+Summary: Async Python client for the Ride with GPS API
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/scriptsandthings/aioridewithgps
+Project-URL: Documentation, https://ridewithgps.com/api/v1/doc
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp>=3.9.0
+
 # aioridewithgps
 
 Async Python client for the [Ride with GPS](https://ridewithgps.com) API v1.
